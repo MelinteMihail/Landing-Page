@@ -153,3 +153,43 @@ ul {
     align-self: flex-end;
     margin-right: 403px;
 }
+
+.sign-up {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .container {
+    height: 150px;
+    background-color: rgb(59, 130, 246);
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    color: #F9FAF8;
+    gap: 100px;
+    border-radius: 20px;
+}
+
+.btn button {
+    padding: 5px 40px;
+    background: none;
+    border: 3px solid #F9FAF8;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
