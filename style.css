@@ -98,10 +98,10 @@ ul {
     margin-top: 25px;
 }
 
-.card .card-img {
+.card .card-img img {
     width: 160px;
     aspect-ratio: 1;
-    border: 5px solid #3882F6;
+    box-shadow: 0 0 20px #000000;
     border-radius: 15px;
 } 
 
@@ -185,4 +185,10 @@ ul {
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
+}
+
+.card .card-text {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
 }
