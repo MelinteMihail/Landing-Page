@@ -29,6 +29,7 @@ ul {
 }
 
 .header .header-image .img img {
+    margin-top: -60px;
     border-radius: 25px;
 }
 
@@ -49,6 +50,7 @@ ul {
 .navbar ul {
     display: flex;
     gap: 25px;
+    margin-top: 40px;
 }
 
 .header .container {
