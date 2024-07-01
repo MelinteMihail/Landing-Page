@@ -28,9 +28,8 @@ ul {
     text-decoration: none;
 }
 
-.header .navbar .logo {
-    font-size: 24px;
-    color: #f9faf8;
+.header .header-image .img img {
+    border-radius: 25px;
 }
 
 .header {
@@ -38,7 +37,7 @@ ul {
     flex-direction: column;
     background-color: #1f2937;
     padding:0 209px;
-    height: 420px;
+    height: 500px;
 }
 
 .header .navbar{
@@ -73,15 +72,7 @@ ul {
     margin-left: auto;
 }
 
-.header .container .header-image .img {
-    background-color: rgb(109, 116, 125);
-    width: 500px;
-    height: 230px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f9faf8;
-}
+
 
 .header .container .header-text button {
     margin-top: 10px;
